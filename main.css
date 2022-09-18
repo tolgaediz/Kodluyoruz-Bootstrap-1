@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-gray{
+    background-color: #2C3333;
+}
+
+.bg-black{
+    background-color: #0A0A0A;
+}
+
+.bg-gitar {
+    background-color:#dadcf0;
+}
+
+.bg-keman {
+    background-color: #E8DDDD;
+}
+
+.bg-piyano {
+    background-color: #DDE7E8;
+}
+
+.bg-studyo {
+    background-color: #E7DDE8;
+}
+
+.bg-nefesli {
+    background-color: #E8E8DD;
+}
+
+.bg-davul {
+    background-color: #DDE8DF;
+}
+
+.bg-footer {
+    background-color: #000000;
+}
+
+.br-125 {
+    border-radius:125px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-top30 {
+    margin-top:30px;
+}
+
+.bg {
+    background-image: url(/images/bg.png);
+}
+
+#navbar-ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+#navbar-ul li {
+    margin-right: 10px;
+    color: #f1f1f1;
+}
+
+#navbar-ul li a {
+    color: #f1f1f1;
+}
+
+.col-sm-2 h2 a {
+    color: #f1f1f1;
+}
+
+.content {
+    background-color: #395B64;
+    height: 95vh;
+}
+
+.col-sm-2 ul {
+    list-style: none;
+}
+
+.col-sm-2 ul li a {
+    color: #f1f1f1;
+}
+
+.col-sm-4 ul {
+    list-style: none;
+    display: flex;
+    margin-left: 42%;
+}
+
+.col-sm-4 ul li {
+    margin-right: 20px;
+}
+
+.col-sm-4 ul li a {
+    color: #080808;
+}
+
+#footer-ul1 li a {
+    color: #080808;
+}
+
+#footer-ul2 li a {
+    color: #080808;
+}
+
+#footer-ul3 li a {
+    font-size: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 50px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #C9BBCF;
+    border-radius: 20px;
+}
+
+.btn-cart {
+    padding: 10px;
+    width: 200px;
+    margin: 10px auto;
+    background-color: #D6EFED;
+    border: none;
+    border-radius: 22px;
+}
+
+.about-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.about-list li {
+    margin-right: 15px;
+}
+
+.about-list li a {
+    font-size: 1.5rem;
+    color: #080808;
+}
+
+.col-sm-1 ul li ion-icon {
+    font-size: 2rem;
+}
